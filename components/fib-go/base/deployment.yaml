@@ -24,7 +24,7 @@ spec:
         app.kubernetes.io/instance: fib-go
     spec:
       containers:
-      - image: quay.io/jduimovich0/fib-go
+      - image: quay.io/jduimovich0/fib-go@sha256:fab481e46e2485b67d4ec4859dbf8fb479826513c9605180a5cadb1917a3b83f
         imagePullPolicy: Always
         name: container-image
         ports:
