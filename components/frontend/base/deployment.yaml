@@ -24,7 +24,7 @@ spec:
         app.kubernetes.io/instance: frontend
     spec:
       containers:
-      - image: quay.io/jduimovich0/frontend
+      - image: quay.io/jduimovich0/frontend@sha256:e36c12b34ded3e48d0919224659fd96eb9a11019173619d6423ddedcd0293a52
         imagePullPolicy: Always
         name: container-image
         ports:
