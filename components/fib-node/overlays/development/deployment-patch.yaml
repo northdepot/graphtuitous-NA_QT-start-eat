@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/jduimovich0/fib-node
+      - image: quay.io/jduimovich0/fib-node@sha256:de9e03d7643619dc3627d818a1d7ba83d3e75cb42e5028e433123bd41b130c5a
         name: container-image
         resources: {}
 status: {}
