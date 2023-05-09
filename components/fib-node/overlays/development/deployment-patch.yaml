@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: fib-node
-  namespace: user1-tenant
 spec:
   replicas: 1
   selector: {}
